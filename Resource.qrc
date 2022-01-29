@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/style.css</file>
+        <file>Resource/images/drop-down.png</file>
+        <file>Resource/images/drop-down-hover.png</file>
+        <file>Resource/images/drop-down-on.png</file>
+        <file>Resource/images/drop-down-on-hover.png</file>
+        <file>Resource/images/logo.png</file>
+    </qresource>
+</RCC>

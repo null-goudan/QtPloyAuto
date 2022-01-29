@@ -1,0 +1,43 @@
+QWidget{
+    background-color: white;
+    font: 20px "楷体";
+}
+
+QComboBox{
+    border-radius: 10px;
+    border: 1px solid rgb(213, 213, 213);
+    min-height: 40px;
+}
+
+QComboBox::drop-down{
+    image:url(:/Resource/images/drop-down.png);
+}
+
+QComboBox::drop-down:hover{
+    image:url(:/Resource/images/drop-down-hover.png);
+}
+
+QComboBox::drop-down:checked{
+    image:url(:/Resource/images/drop-up.png);
+}
+
+QComboBox::drop-down:hover:checked{
+    image:url(:/Resource/images/drop-up-hover.png);
+}
+
+QPushButton{
+    border-radius: 10px;
+    border: 1px solid rgb(213, 213, 213);
+    min-height: 40px;
+}
+
+QPushButton:hover{
+    background-color: rgba(213, 213, 213,200);
+}
+
+QPushButton#user_ExeFile_Btn{
+    border:  2px solid rgb(213, 213, 213);
+    border-radius: 20px;
+    font: 40px "楷体";
+    color: rgb(213, 213, 213);
+}
